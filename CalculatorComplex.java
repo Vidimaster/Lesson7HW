@@ -4,11 +4,6 @@ public class CalculatorComplex implements CalculableComplex  {
 
    private int arr[] = new int[2];
 
-    CalculatorComplex() {
-        this.arr[0] = 0;
-        this.arr[1] = 0;
-    }
-
     public CalculatorComplex(int[] arr) {
         this.arr[0] = arr[0];
         this.arr[1] = arr[1];
